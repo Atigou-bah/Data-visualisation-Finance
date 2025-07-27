@@ -11,3 +11,5 @@ apple.plot_apple(apple_data)
 
 ## Comparaison 
 cmp.plot_comparaison(btc_data,tesla_data,apple_data)
+
+apple.saveData(apple_data,'analyse_apple')

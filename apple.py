@@ -71,3 +71,7 @@ def plot_apple(df_simple):
 
     plt.savefig("apple.png", format="PNG")
     plt.show()
+
+def saveData(data,name_file): 
+    data.to_csv(name_file,sep=';',index=False)
+    print("Fichier enregistrer avec succes")
